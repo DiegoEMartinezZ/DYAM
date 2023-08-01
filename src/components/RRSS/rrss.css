@@ -1,0 +1,7 @@
+ul.rrss-list {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  margin: 0 80px;
+  list-style: none;
+}

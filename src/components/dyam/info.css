@@ -1,0 +1,43 @@
+main.description-container {
+  width: 100%;
+  margin: 100px auto;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.title {
+  margin: 25px 5px;
+  font-weight: bolder;
+}
+
+.subtitle {
+  margin: 30px 5px;
+  font-weight: bolder;
+}
+
+.txt {
+  margin: 0 25px;
+}
+
+.roles {
+  margin: 20px 5px;
+}
+
+ul.roles-list {
+  margin: 0 25px;
+  font-style: italic;
+  list-style-type: square;
+}
+
+ul.strategic-container {
+  list-style: none;
+}
+
+ol.services-list {
+  margin: 0 25px;
+}
+
+ul.costs-list {
+  margin: 0 25px;
+}

@@ -1,0 +1,58 @@
+nav.navbar-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+ul.navbar-wrap {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  height: 4.5rem;
+  padding: 0 50px;
+}
+
+.logo-dyam {
+  width: 250px;
+  margin: 0;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-btn {
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  background: none;
+  color: #fff;
+}
+
+.cancel-btn {
+  display: none;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  background: none;
+  color: #fff;
+}
+
+.inactive {
+  display: none;
+}
+
+.active {
+  display: inline-block;
+}
+
+button.menu-btn:hover {
+  cursor: pointer;
+  color: #e98700;
+}
