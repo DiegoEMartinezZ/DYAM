@@ -4,8 +4,8 @@ import React from "react";
 const Campaing = () => {
   return (
     <>
-      <main className="description-container">
-        <h1 className="title"> Campaign Review & Optimization </h1>
+      <main className="description-container" id="campaign">
+        <h1 className="title">Campaign Review & Optimization</h1>
         <ul className="strategic-container">
           <li>
             <h2 className="subtitle"> Pre-Flight </h2>

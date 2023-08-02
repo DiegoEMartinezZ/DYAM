@@ -3,8 +3,8 @@ import React from "react";
 const Reporting = () => {
   return (
     <>
-      <main className="description-container">
-        <h1 className="title"> Campaign Reporting</h1>
+      <main className="description-container" id="reporting">
+        <h1 className="title">Campaign Reporting</h1>
         <ul className="strategic-container">
           <li>
             <p className="txt">

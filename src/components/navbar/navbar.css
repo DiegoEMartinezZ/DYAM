@@ -51,8 +51,3 @@ button {
 .active {
   display: inline-block;
 }
-
-button.menu-btn:hover {
-  cursor: pointer;
-  color: #e98700;
-}

@@ -25,13 +25,41 @@ ul.menu-list li {
 
 ul.menu-list li div {
   display: flex;
-  align-items: baseline;
+  flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
 }
 
-ul.specific-list {
+ul.plan-list,
+ul.price-list {
+  display: none;
   list-style: none;
   font-weight: lighter;
   font-size: 1.5rem;
   margin-left: 20px;
+}
+
+button.plan-button,
+button.price-button {
+  display: block;
+  cursor: pointer;
+  transition: transform 0.2s ease 0s;
+}
+
+.active-button {
+  transform: rotate(-180deg);
+  transition: transform 0.2s ease 0s;
+}
+
+ul.plan-list.active {
+  display: inline-block;
+}
+
+ul.price-list.active {
+  display: inline-block;
+}
+
+.options {
+  text-decoration: none;
+  color: inherit;
 }

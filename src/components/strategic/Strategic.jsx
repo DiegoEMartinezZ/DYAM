@@ -4,8 +4,8 @@ import "../dyam/info.css";
 const Strategic = () => {
   return (
     <>
-      <main className="description-container">
-        <h1 className="title"> Strategic Approach & Planning </h1>
+      <main className="description-container" id="approach">
+        <h1 className="title">Strategic Approach & Planning</h1>
         <ul className="strategic-container">
           <li>
             <h2 className="subtitle"> Understand client needs</h2>

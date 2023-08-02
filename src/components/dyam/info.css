@@ -1,7 +1,7 @@
 main.description-container {
   width: 100%;
-  margin: 100px auto;
-  padding: 15px;
+  margin: auto;
+  padding-top: 150px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
@@ -9,25 +9,40 @@ main.description-container {
 .title {
   margin: 25px 5px;
   font-weight: bolder;
+  color: #e98700;
 }
 
 .subtitle {
   margin: 30px 5px;
-  font-weight: bolder;
+  font-weight: 500;
+  color: #e98700;
 }
 
 .txt {
   margin: 0 25px;
+  padding-bottom: 100px;
+}
+
+p.txt div {
+  text-align: center;
+}
+
+.roles-container {
+  text-align: center;
 }
 
 .roles {
   margin: 20px 5px;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 20px;
 }
 
 ul.roles-list {
   margin: 0 25px;
   font-style: italic;
-  list-style-type: square;
+  font-size: 20px;
+  list-style: none;
 }
 
 ul.strategic-container {
@@ -36,8 +51,39 @@ ul.strategic-container {
 
 ol.services-list {
   margin: 0 25px;
+  list-style: none;
 }
 
 ul.costs-list {
   margin: 0 25px;
+  list-style: none;
+  text-align: center;
+}
+
+ul.costs-list li {
+  margin-bottom: 40px;
+}
+
+h5 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 30px 20%;
+}
+
+@media only screen and (min-width: 1024px) {
+  main.description-container {
+    text-align: center;
+    font-size: 24px;
+  }
+  .title {
+    font-size: 55px;
+    margin: 40px 20px;
+  }
+  .subtitle {
+    font-size: 40px;
+  }
+  .txt {
+    margin: 0 20%;
+    text-align: justify;
+  }
 }

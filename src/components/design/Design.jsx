@@ -3,8 +3,8 @@ import React from "react";
 const Design = () => {
   return (
     <>
-      <main className="description-container">
-        <h1 className="title"> Design </h1>
+      <main className="description-container" id="design">
+        <h1 className="title">Design</h1>
         <ul className="strategic-container">
           <li>
             <h2 className="subtitle"> UI/UX Design </h2>
