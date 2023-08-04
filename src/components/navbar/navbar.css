@@ -51,3 +51,23 @@ button {
 .active {
   display: inline-block;
 }
+
+@media only screen and (min-width: 1024px) {
+  .menu-btn {
+    display: none;
+  }
+  ul.navbar-wrap {
+    justify-content: space-around;
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 639px) {
+  .logo-dyam {
+    width: 210px;
+    margin: 0;
+  }
+  .menu-btn {
+    font-size: 23px;
+  }
+}

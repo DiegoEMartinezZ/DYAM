@@ -1,8 +1,9 @@
+import "./navbar.css";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import NavBarComplete from "../../assets/navBarComplete/NavBarComplete";
 import Menu from "../../assets/menu/Menu";
-import "./navbar.css";
 
 const NavBar = () => {
   const menuHandle = () => {
@@ -28,9 +29,12 @@ const NavBar = () => {
             />
           </li>
           <li>
+            <NavBarComplete />
+          </li>
+          <li>
             <button onClick={menuHandle}>
-              <FontAwesomeIcon icon={faXmark} className="cancel-btn" />
               <FontAwesomeIcon icon={faBars} className="menu-btn" />
+              <FontAwesomeIcon icon={faXmark} className="cancel-btn" />
             </button>
           </li>
         </ul>

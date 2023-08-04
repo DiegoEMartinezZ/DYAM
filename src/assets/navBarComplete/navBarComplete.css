@@ -1,0 +1,14 @@
+ul.navbar-complete-list {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  ul.navbar-complete-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  ul.navbar-complete-list li {
+    margin: 0 2rem;
+  }
+}
