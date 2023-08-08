@@ -26,6 +26,11 @@ main.description-container {
   padding-bottom: 50px;
 }
 
+em,
+strong {
+  color: #e98700;
+}
+
 p.txt div {
   text-align: center;
 }

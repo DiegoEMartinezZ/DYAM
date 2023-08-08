@@ -15,21 +15,12 @@ const About = () => {
           magnam voluptatum ducimus at nemo repellendus? Ipsa obcaecati
           explicabo, labore ipsum debitis quis distinctio!
         </p>
-        <h2 className="subtitle"> Andres Martínez </h2>
+        <h2 className="subtitle"> Andrés Martínez </h2>
         <p className="txt">
           Colombian with 5 years of experience in digital marketing, I have been
           working from a planning perspective and ad ops, ensuring the clients
           meet their goals. I had worked within the top tier companies:{" "}
           <em>Hylink, Group M, Mediamath, Accenture and Publicis Groupe.</em>
-          <br />
-          <br />
-          I love spending my free time reading (I love romantic books and
-          philosophy), writing, doing exercise at the GYM, playing soccer and
-          playing video games.a
-          <br />
-          <br />
-          Also, I love traveling and get to know new places in which we can meet
-          different people.
           <div className="roles-container">
             <h4 className="roles"> Roles & Responsabilities</h4>
             <ul className="roles-list">
@@ -45,13 +36,8 @@ const About = () => {
           Colombian with 4 years of experience in graphic design, I have been
           working in digital advertising for social media and in the UI/UX
           design to generate a better communication with the users. I had worked
-          with: MOE (Misión de Observación Electoral) and TRANSMILENIO S.A.
-          <br />
-          <br /> I love spending my free time drawing, hanging out with my
-          friends, but most of my time I spend on the computer improving my
-          frontend skills and playing video games.
-          <br />
-          <br />
+          with:{" "}
+          <em>MOE (Misión de Observación Electoral) and TRANSMILENIO S.A.</em>
           Knowledge in HTML, CSS, Js, APIs. My favorite framework for frontend
           projects is React Js.
           <div className="roles-container">
@@ -66,19 +52,18 @@ const About = () => {
 
         <h2 className="subtitle"> Nicolas Nagles </h2>
         <p className="txt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquam
-          magni, necessitatibus, voluptates quas rerum, nobis beatae quia labore
-          corporis mollitia voluptatem qui. Nemo necessitatibus sequi est esse
-          tempora perspiciatis! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Enim explicabo, incidunt saepe a facere sapiente
-          laborum laboriosam commodi, itaque inventore nihil alias, reiciendis
-          voluptas dicta dignissimos voluptatum aspernatur similique ad.
+          Colombian professional excelling in campaign orchestration, strategic
+          planning, and client engagement across diverse roles. Proven
+          experience in sales and Tech Consultancy. Skilled in collaborative
+          alignment with internal stakeholders and seamless strategy execution.
+          My versatile background includes Top companies such as{" "}
+          <em>Globant, Oracle, SAP, and Tecno Mobile - Transsion Holdings.</em>
           <div className="roles-container">
             <h4 className="roles"> Roles & Responsabilities</h4>
             <ul className="roles-list">
-              <li> asdasdad </li>
-              <li> asdasdas </li>
-              <li> sadsasad </li>
+              <li> Lead Generation and Prospecting </li>
+              <li> Account Management </li>
+              <li> Internal strategic management </li>
             </ul>
           </div>
         </p>
