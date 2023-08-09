@@ -10,24 +10,24 @@ const Campaing = () => {
           <li>
             <h2 className="subtitle"> Pre-Flight </h2>
             <p className="txt">
-              Pre-flight meeting/ email with the setup of the campaign so we are
-              align with the MP and the desired strategy.
+              <strong>Pre-flight meeting/ email with the setup </strong> of the
+              campaign so we are align with the MP and the desired strategy.
             </p>
           </li>
 
           <li>
             <h2 className="subtitle"> In-Flight </h2>
             <p className="txt">
-              Campaign check and optimizations in order to accomplish the
-              estimated KPI.
+              <strong>Campaign check and optimizations </strong>
+              in order to accomplish the estimated KPI.
             </p>
           </li>
 
           <li>
             <h2 className="subtitle"> Post-Flight </h2>
             <p className="txt">
-              Campaign post buy report, with comparison between executed and
-              planned.
+              <strong>Campaign post buy report</strong>, with comparison between
+              executed and planned.
             </p>
           </li>
         </ul>

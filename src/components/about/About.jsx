@@ -37,9 +37,11 @@ const About = () => {
           working in digital advertising for social media and in the UI/UX
           design to generate a better communication with the users. I had worked
           with:{" "}
-          <em>MOE (Misión de Observación Electoral) and TRANSMILENIO S.A.</em>
-          Knowledge in HTML, CSS, Js, APIs. My favorite framework for frontend
-          projects is React Js.
+          <em>
+            MOE (Misión de Observación Electoral), TRANSMILENIO S.A. and several
+            other small and big companies as a freelance designer.
+          </em>{" "}
+          Knowledge in HTML, CSS, Js, APIs and React JS.
           <div className="roles-container">
             <h4 className="roles"> Roles & Responsabilities</h4>
             <ul className="roles-list">
@@ -50,7 +52,7 @@ const About = () => {
           </div>
         </p>
 
-        <h2 className="subtitle"> Nicolas Nagles </h2>
+        <h2 className="subtitle"> Nicolás Hernández </h2>
         <p className="txt">
           Colombian professional excelling in campaign orchestration, strategic
           planning, and client engagement across diverse roles. Proven
