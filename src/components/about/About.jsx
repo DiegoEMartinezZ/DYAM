@@ -7,19 +7,29 @@ const About = () => {
       <main className="description-container" id="team">
         <h1 className="title">Team</h1>
         <p className="txt">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
-          reprehenderit quibusdam ducimus enim commodi ipsam voluptas
-          voluptates, quos quia earum velit molestias! Alias, nemo. Ex rerum
-          animi minima quae harum! Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Tenetur, enim animi optio quae sint accusantium quas
-          magnam voluptatum ducimus at nemo repellendus? Ipsa obcaecati
-          explicabo, labore ipsum debitis quis distinctio!
+          D&AM partnered with a fashion retailer seeking to expand its online
+          footprint.{" "}
+          <strong>
+            The digital media team meticulously crafted a strategy that combined
+            visually captivating social media content with an strategic
+            approach.
+          </strong>{" "}
+          This approach not only increased brand awareness but also drove a
+          substantial boost in online sales. The team's unwavering focus on the
+          client's preferences and values allowed for seamless integration of
+          their{" "}
+          <strong>
+            {" "}
+            vision into the digital campaign, forging a lasting partnership.{" "}
+          </strong>
         </p>
-        <h2 className="subtitle"> Andrés Martínez </h2>
+        <h2 className="subtitle">
+          <strong>Andrés Martínez</strong>
+        </h2>
         <p className="txt">
-          Colombian with 5 years of experience in digital marketing, I have been
-          working from a planning perspective and ad ops, ensuring the clients
-          meet their goals. I had worked within the top tier companies:{" "}
+          Colombian with experience in digital marketing, been working from a
+          planning perspective and ad ops, ensuring the clients meet their
+          goals. Had worked within the top tier companies:{" "}
           <em>Hylink, Group M, Mediamath, Accenture and Publicis Groupe.</em>
           <div className="roles-container">
             <h4 className="roles"> Roles & Responsabilities</h4>
@@ -31,15 +41,16 @@ const About = () => {
           </div>
         </p>
 
-        <h2 className="subtitle"> Diego Martínez </h2>
+        <h2 className="subtitle">
+          <strong>Diego Martínez</strong>
+        </h2>
         <p className="txt">
-          Colombian with 4 years of experience in graphic design, I have been
-          working in digital advertising for social media and in the UI/UX
-          design to generate a better communication with the users. I had worked
-          with:{" "}
+          Colombian with experience in graphic design, been working in digital
+          advertising for social media and in the UI/UX design to generate a
+          better communication with the users. Had worked with:{" "}
           <em>
-            MOE (Misión de Observación Electoral), TRANSMILENIO S.A. and several
-            other small and big companies as a freelance designer.
+            Misión de Observación Electoral - MOE, TransMilenio and several
+            small and big companies as a freelance designer.
           </em>{" "}
           Knowledge in HTML, CSS, Js, APIs and React JS.
           <div className="roles-container">
@@ -52,7 +63,9 @@ const About = () => {
           </div>
         </p>
 
-        <h2 className="subtitle"> Nicolás Hernández </h2>
+        <h2 className="subtitle">
+          <strong>Nicolás Hernández</strong>
+        </h2>
         <p className="txt">
           Colombian professional excelling in campaign orchestration, strategic
           planning, and client engagement across diverse roles. Proven

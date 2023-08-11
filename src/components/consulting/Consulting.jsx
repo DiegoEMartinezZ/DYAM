@@ -4,14 +4,14 @@ const Consulting = () => {
   return (
     <main className="description-container" id="consulting">
       <h1 className="title"> Service Fee </h1>
-      <ul className="strategic-container">
+      <ul className="consulting-container">
         <li>
           <h2 className="subtitle">Consulting Service Fee</h2>
           <p className="txt">
-            One of our services is the consulting service, in which we make an
-            analysis of your current situation in terms of advertising and based
-            in the goal you desired we can recommend you the best strategy that
-            you should develop on your own.
+            <em>One of our services is the consulting service, </em>
+            in which we make an analysis of your current situation in terms of
+            advertising and based in the goal you desired we can recommend you
+            the best strategy that you should develop on your own.
             <br />
             <br />
             <div id="services">

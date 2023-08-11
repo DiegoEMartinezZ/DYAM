@@ -5,6 +5,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background: rgb(241, 241, 241);
+  background: linear-gradient(
+    0deg,
+    rgba(241, 241, 241, 1) 0%,
+    rgba(255, 234, 206, 0.08167016806722693) 100%
+  );
+}
+
 .stop {
   position: fixed;
 }

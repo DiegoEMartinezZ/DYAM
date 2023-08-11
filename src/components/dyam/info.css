@@ -9,26 +9,31 @@ main.description-container {
 
 .title {
   text-align: center;
-  margin: 20px 5px;
+  margin: 40px 10px;
   font-weight: bolder;
   color: #e98700;
+  font-size: 40px;
 }
 
 .subtitle {
   text-align: center;
-  margin: 20px 5px;
-  font-weight: 500;
+  margin: 20px 10px;
+  font-weight: 700;
   color: #e98700;
 }
 
 .txt {
   margin: 0 25px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
-em,
-strong {
+em {
   color: #e98700;
+}
+
+em {
+  color: #000;
+  font-weight: 600;
 }
 
 p.txt div {
@@ -73,10 +78,18 @@ ul.costs-list li {
   margin-bottom: 40px;
 }
 
+h4 {
+  color: #e98700;
+}
+
 h5 {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   margin: 30px 10%;
+  text-align: center;
+}
+
+ul.campaign-container p.txt {
   text-align: center;
 }
 

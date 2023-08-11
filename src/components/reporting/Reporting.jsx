@@ -5,11 +5,12 @@ const Reporting = () => {
     <>
       <main className="description-container" id="reporting">
         <h1 className="title">Campaign Reporting</h1>
-        <ul className="strategic-container">
+        <ul className="reporting-container">
           <li>
             <p className="txt">
-              Campaign Reporting within Google Data Studio Dashboard in order to
-              easily check and present the campaign results to the clients.
+              <em>Campaign Reporting within Google Data Studio Dashboard </em>
+              in order to easily check and present the campaign results to the
+              clients.
             </p>
           </li>
         </ul>
