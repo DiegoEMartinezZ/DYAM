@@ -1,0 +1,46 @@
+[
+  {
+    "members": [
+      {
+        "id": 1,
+        "name": "Andrés Martínez",
+        "description": " Colombian with experience in digital marketing, been working from a planning perspective and ad ops, ensuring the clients meet their goals.",
+        "experience": [
+          "Hylink",
+          "Group M",
+          "Mediamath",
+          "Accenture",
+          "Publicis Groupe"
+        ],
+        "roles": [
+          "Strategy & Planning ",
+          "Ad Ops/ Campaign manager",
+          "Reporting & Insight"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Nicolas Hernandez",
+        "description": "lorem",
+        "experience": [
+          "Globant",
+          "Oracle",
+          "SAP",
+          "Tecno Mobile - Transsion holdings"
+        ],
+        "roles": [
+          "Lead Generation and Prospecting",
+          "Account Management",
+          "Internal Strategic Management"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Diego Martinez",
+        "description": "lorem",
+        "experience": ["MOE", "TransMilenio S.A", "DAI - USAID"],
+        "roles": ["UX/UI Designer", "Creative Designer", "Web Development"]
+      }
+    ]
+  }
+]

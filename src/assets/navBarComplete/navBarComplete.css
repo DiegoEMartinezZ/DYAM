@@ -1,5 +1,10 @@
 ul.navbar-complete-list {
   display: none;
+  font-size: 13px;
+}
+
+ul.navbar-complete-list li {
+  margin: 0 3rem;
 }
 
 ul.navbar-complete-list .options li:hover {
@@ -11,8 +16,5 @@ ul.navbar-complete-list .options li:hover {
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
-  }
-  ul.navbar-complete-list li {
-    margin: 0 2rem;
   }
 }

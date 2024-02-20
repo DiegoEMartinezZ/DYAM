@@ -7,7 +7,7 @@ const Consulting = () => {
       <ul className="consulting-container">
         <li>
           <h2 className="subtitle">Consulting Service Fee</h2>
-          <p className="txt">
+          <h4 className="txt">
             <em>One of our services is the consulting service, </em>
             in which we make an analysis of your current situation in terms of
             advertising and based in the goal you desired we can recommend you
@@ -15,10 +15,10 @@ const Consulting = () => {
             <br />
             <br />
             <div id="services">
-              <h4>The consulting service fee is:</h4>
+              <p>The consulting service fee is:</p>
               $25 USD per hour
             </div>
-          </p>
+          </h4>
         </li>
 
         <li>
@@ -35,22 +35,18 @@ const Consulting = () => {
           </h5>
 
           <h2 className="subtitle">Costs:</h2>
-          <p className="txt">
+          <h4 className="txt">
             <ul className="costs-list">
               <li>
-                <h4>Manage Digital Advertising Campaigns:</h4>
-                7% of the Net media Budget with a minimum $250 USD per month.
+                Manage Digital Advertising Campaigns: 7% of the Net media Budget
+                with a minimum $250 USD per month.
               </li>
               <li>
-                <h4>Design and Create Ad assets:</h4>
-                $100 USD per campaign/ initiative.
+                Design and Create Ad assets: $100 USD per campaign/ initiative.
               </li>
-              <li>
-                <h4>Create a website for your company:</h4>
-                $750 USD per website.
-              </li>
+              <li>Create a website for your company: $750 USD per website.</li>
             </ul>
-          </p>
+          </h4>
         </li>
       </ul>
     </main>

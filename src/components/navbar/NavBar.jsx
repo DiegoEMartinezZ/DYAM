@@ -19,7 +19,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="navbar-container">
+      <div className="navbar-container">
         <ul className="navbar-wrap">
           <li>
             <img
@@ -39,7 +39,7 @@ const NavBar = () => {
           </li>
         </ul>
         <Menu menuHandle={menuHandle} />
-      </nav>
+      </div>
     </>
   );
 };
