@@ -1,7 +1,7 @@
 import React from "react";
 import "../dyam/info.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserGroup } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faUserGroup } from "@fortawesome/free-solid-svg-icons";
 import Members from "../members/Members";
 
 const About = () => {
@@ -9,7 +9,7 @@ const About = () => {
     <>
       <main className="description-container" id="team">
         <h1 className="title">
-          <FontAwesomeIcon icon={faUserGroup} className="team-icon" /> Team{" "}
+          <FontAwesomeIcon icon={faUserGroup} className="team-icon" /> | Team{" "}
         </h1>
         <p className="txt">
           D&AM partnered with a fashion retailer seeking to expand its online
@@ -29,7 +29,9 @@ const About = () => {
             {" "}
             vision into the digital campaign, forging a lasting partnership.{" "}
           </strong>
+          <FontAwesomeIcon icon={faAngleDown} className="arrow-down" />
         </p>
+
         <Members />
       </main>
     </>

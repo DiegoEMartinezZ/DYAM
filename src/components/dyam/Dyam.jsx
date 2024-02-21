@@ -8,11 +8,7 @@ const Dyam = () => {
     <>
       <main className="description-container" id="about">
         <div className="goal-dyam-container">
-          <img
-            src="/img/meeting.jpg"
-            alt="DYAMmeeting"
-            className="meeting-dyam"
-          />
+          <img src="/img/meeting.jpg" alt="DYAMmeeting" className="imgs-dyam" />
           <p className="goal-dyam-txt">
             <FontAwesomeIcon icon={faGlobe} className="icons" />
             In D&AM Digital Media our core focus lies in delivering a

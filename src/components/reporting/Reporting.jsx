@@ -1,10 +1,15 @@
+import { faClipboardCheck } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const Reporting = () => {
   return (
     <>
       <main className="description-container" id="reporting">
-        <h1 className="title">Campaign Reporting</h1>
+        <h1 className="title">
+          <FontAwesomeIcon icon={faClipboardCheck} className="team-icon" />|
+          Campaign Reporting
+        </h1>
         <ul className="reporting-container">
           <li>
             <p className="txt">

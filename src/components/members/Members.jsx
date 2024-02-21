@@ -1,60 +1,79 @@
 import { useState } from "react";
 import teamInfo from "../../resources/teamInfo.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
-import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
+import {
+  faAngleDown,
+  faCaretLeft,
+  faCaretRight,
+  faLaptop,
+  faPeopleGroup,
+} from "@fortawesome/free-solid-svg-icons";
 import "../dyam/info.css";
 
 const Members = () => {
   const { members } = teamInfo[0];
   const [memberID, setMemberID] = useState(0);
-  const { id, name, description, experience, roles } = members[memberID];
+  const { id, img, name, description, experience, roles } = members[memberID];
 
-  const prueba = () => {
-    console.log("estas oprimiendo el botond e prueb");
+  const handleButtonToRight = () => {
+    memberID < members.length - 1 && setMemberID(memberID + 1);
+  };
+
+  const handleButtonToLeft = () => {
+    memberID > 0 && setMemberID(memberID - 1);
   };
 
   return (
-    <div>
-      <li key={id}>
-        <button onClick={prueba} className="prueba">
-          prueba
-        </button>
-        <h1 className="exp-title"> {name} </h1>
-        <h5 className="exp-position"> {description} </h5>
-        <h5 className="exp-years"> {experience} </h5>
+    <div className="member-container">
+      <li key={id} className="member-wrap">
+        <img src={img} alt="member-dyam" className="members-img" />
+        <h1 className="member-name"> {name} </h1>
+
+        <div className="member-slider">
+          <button onClick={handleButtonToLeft} className="btn-slider">
+            <FontAwesomeIcon icon={faCaretLeft} />
+          </button>
+          <p className="member-description"> {description} </p>
+          <button onClick={handleButtonToRight}>
+            <FontAwesomeIcon icon={faCaretRight} />
+          </button>
+        </div>
+
         <br />
-        <p className="exp-txt"> {roles} </p>
-        <ul>
-          {roles.map((rol, idx) => {
-            return (
-              <li key={idx}>
-                <p>
-                  <FontAwesomeIcon icon={faCircleCheck} /> {""}
-                  {rol}
-                </p>{" "}
-              </li>
-            );
-          })}
-        </ul>
+        <br />
+
+        <div className="member-experience">
+          <ul className="member-list">
+            <h3 className="member-subtitle">
+              <FontAwesomeIcon icon={faPeopleGroup} className="member-icons" />
+              Clients
+            </h3>
+            {experience.map((exp, idx) => {
+              return (
+                <li key={idx} className="member-clients">
+                  <p>{exp}</p>
+                </li>
+              );
+            })}
+          </ul>
+
+          <ul className="member-list">
+            <h3 className="member-subtitle">
+              <FontAwesomeIcon icon={faLaptop} className="member-icons" />
+              Functions
+            </h3>
+            {roles.map((rol, idx) => {
+              return (
+                <li key={idx} className="member-roles">
+                  <p>{rol}</p>{" "}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+
         <br />
       </li>
-      <section>
-        <button
-          onClick={() => memberID > 0 && setMemberID(memberID - 1)}
-          className="btn"
-        >
-          Izquierda
-        </button>
-        <p className="id-exp">{memberID + 1}</p>
-        <button
-          onClick={() =>
-            memberID < members.length - 1 && setMemberID(memberID + 1)
-          }
-        >
-          derecha
-        </button>
-      </section>
     </div>
   );
 };

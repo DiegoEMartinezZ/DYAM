@@ -1,11 +1,20 @@
+import {
+  faBezierCurve,
+  faLaptopCode,
+  faPenNib,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const Design = () => {
   return (
     <>
       <main className="description-container" id="design">
-        <h1 className="title">Design</h1>
+        <h1 className="title">
+          <FontAwesomeIcon icon={faPenNib} className="team-icon" />| Design
+        </h1>
         <ul className="design-container">
+          <FontAwesomeIcon icon={faLaptopCode} />
           <li>
             <h2 className="subtitle"> UI/UX Design </h2>
             <p className="txt">
@@ -21,6 +30,7 @@ const Design = () => {
             </p>
           </li>
 
+          <FontAwesomeIcon icon={faBezierCurve} />
           <li>
             <h2 className="subtitle"> Creative Design </h2>
             <p className="txt">

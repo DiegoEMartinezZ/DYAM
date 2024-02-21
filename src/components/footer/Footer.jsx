@@ -15,7 +15,7 @@ const Footer = () => {
           </ul>
         </section>
         <Rrss />
-        <h1 className="copyright"> &copy; D&AM 2023. All Rights Reserved. </h1>
+        <h1 className="copyright"> &copy; D&AM 2024. All Rights Reserved. </h1>
       </footer>
     </>
   );

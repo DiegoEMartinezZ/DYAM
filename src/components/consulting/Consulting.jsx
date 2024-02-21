@@ -1,9 +1,14 @@
+import { faCreditCard } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const Consulting = () => {
   return (
     <main className="description-container" id="consulting">
-      <h1 className="title"> Service Fee </h1>
+      <h1 className="title">
+        <FontAwesomeIcon icon={faCreditCard} className="team-icon" />| Service
+        Fee
+      </h1>
       <ul className="consulting-container">
         <li>
           <h2 className="subtitle">Consulting Service Fee</h2>
@@ -29,10 +34,10 @@ const Consulting = () => {
             <li> 2. Design and create the different ad assets. </li>
             <li> 3. Create a website for your company. </li>
           </ol>
-          <h5>
+          <h2 className="subtitle">
             Follow the brief with the instructions you send so we are align with
             you company's expectations.
-          </h5>
+          </h2>
 
           <h2 className="subtitle">Costs:</h2>
           <h4 className="txt">

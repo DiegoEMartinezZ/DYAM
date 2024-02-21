@@ -1,12 +1,24 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../dyam/info.css";
 import React from "react";
+import {
+  faArrowDown,
+  faPlane,
+  faPlaneArrival,
+  faPlaneDeparture,
+  faSitemap,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Campaing = () => {
   return (
     <>
       <main className="description-container" id="campaign">
-        <h1 className="title">Campaign Review & Optimization</h1>
+        <h1 className="title">
+          <FontAwesomeIcon icon={faSitemap} className="team-icon" />| Campaign
+          Review & Optimization
+        </h1>
         <ul className="campaign-container">
+          <FontAwesomeIcon icon={faPlane} />
           <li>
             <h2 className="subtitle"> Pre-Flight </h2>
             <p className="txt">
@@ -15,6 +27,7 @@ const Campaing = () => {
             </p>
           </li>
 
+          <FontAwesomeIcon icon={faPlaneDeparture} />
           <li>
             <h2 className="subtitle"> In-Flight </h2>
             <p className="txt">
@@ -23,6 +36,7 @@ const Campaing = () => {
             </p>
           </li>
 
+          <FontAwesomeIcon icon={faPlaneArrival} />
           <li>
             <h2 className="subtitle"> Post-Flight </h2>
             <p className="txt">

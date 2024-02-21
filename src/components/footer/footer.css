@@ -31,6 +31,7 @@ ul.footer-list li {
 
 .copyright {
   font-weight: lighter;
-  font-size: 13px;
+  font-style: italic;
+  font-size: 11px;
   margin-top: 50px;
 }
