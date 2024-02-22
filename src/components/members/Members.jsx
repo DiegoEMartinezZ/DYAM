@@ -34,7 +34,7 @@ const Members = () => {
             <FontAwesomeIcon icon={faCaretLeft} />
           </button>
           <p className="member-description"> {description} </p>
-          <button onClick={handleButtonToRight}>
+          <button onClick={handleButtonToRight} className="btn-slider">
             <FontAwesomeIcon icon={faCaretRight} />
           </button>
         </div>
