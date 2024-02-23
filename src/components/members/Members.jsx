@@ -3,8 +3,10 @@ import teamInfo from "../../resources/teamInfo.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleDown,
+  faBriefcase,
   faCaretLeft,
   faCaretRight,
+  faCircleCheck,
   faLaptop,
   faPeopleGroup,
 } from "@fortawesome/free-solid-svg-icons";
@@ -51,7 +53,13 @@ const Members = () => {
             {experience.map((exp, idx) => {
               return (
                 <li key={idx} className="member-clients">
-                  <p>{exp}</p>
+                  <p>
+                    <FontAwesomeIcon
+                      icon={faBriefcase}
+                      className="list-check"
+                    />
+                    {exp}
+                  </p>
                 </li>
               );
             })}
@@ -65,7 +73,13 @@ const Members = () => {
             {roles.map((rol, idx) => {
               return (
                 <li key={idx} className="member-roles">
-                  <p>{rol}</p>{" "}
+                  <p>
+                    <FontAwesomeIcon
+                      icon={faCircleCheck}
+                      className="list-check"
+                    />
+                    {rol}
+                  </p>{" "}
                 </li>
               );
             })}

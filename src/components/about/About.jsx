@@ -13,24 +13,16 @@ const About = () => {
         </h1>
         <p className="txt">
           D&AM partnered with a fashion retailer seeking to expand its online
-          footprint.{" "}
-          <strong>
-            The digital media team meticulously crafted a strategy that combined
-            visually captivating social media content with an strategic
-            approach.
-          </strong>{" "}
-          <br />
+          footprint. The digital media team meticulously crafted a strategy that
+          combined visually captivating social media content with an strategic
+          approach. <br />
           <br />
           This approach not only increased brand awareness but also drove a
           substantial boost in online sales. The team's unwavering focus on the
           client's preferences and values allowed for seamless integration of
-          their{" "}
-          <strong>
-            {" "}
-            vision into the digital campaign, forging a lasting partnership.{" "}
-          </strong>
-          <FontAwesomeIcon icon={faAngleDown} className="arrow-down" />
+          their vision into the digital campaign, forging a lasting partnership.{" "}
         </p>
+        <FontAwesomeIcon icon={faAngleDown} className="icons-steps" />
 
         <Members />
       </main>

@@ -12,8 +12,8 @@ const Dyam = () => {
           <p className="goal-dyam-txt">
             <FontAwesomeIcon icon={faGlobe} className="icons" />
             In D&AM Digital Media our core focus lies in delivering a
-            comprehensive range of services that encompass{" "}
-            <strong>every aspect of the digital sphere.</strong>
+            comprehensive range of services that encompass every aspect of the
+            digital sphere.
             <br />
             <br />
             From expert web design and development, innovative social media

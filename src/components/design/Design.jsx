@@ -14,7 +14,7 @@ const Design = () => {
           <FontAwesomeIcon icon={faPenNib} className="team-icon" />| Design
         </h1>
         <ul className="design-container">
-          <FontAwesomeIcon icon={faLaptopCode} />
+          <FontAwesomeIcon icon={faLaptopCode} className="icons-steps" />
           <li>
             <h2 className="subtitle"> UI/UX Design </h2>
             <p className="txt">
@@ -30,7 +30,7 @@ const Design = () => {
             </p>
           </li>
 
-          <FontAwesomeIcon icon={faBezierCurve} />
+          <FontAwesomeIcon icon={faBezierCurve} className="icons-steps" />
           <li>
             <h2 className="subtitle"> Creative Design </h2>
             <p className="txt">

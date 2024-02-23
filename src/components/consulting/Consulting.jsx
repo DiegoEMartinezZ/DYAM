@@ -12,7 +12,7 @@ const Consulting = () => {
       </h1>
       <ul className="consulting-container">
         <li className="consulting-wrap">
-          <FontAwesomeIcon icon={faCommentDots} />
+          <FontAwesomeIcon icon={faCommentDots} className="icons-steps" />
           <h2 className="subtitle">Consulting Service Fee</h2>
           <h2 className="txt">
             One of our services is the consulting service, in which we make an

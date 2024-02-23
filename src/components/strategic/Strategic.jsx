@@ -12,7 +12,7 @@ const Strategic = () => {
           Strategic Approach & Planning
         </h1>
         <ul className="strategic-container">
-          <FontAwesomeIcon icon={faDownLong} />
+          <FontAwesomeIcon icon={faDownLong} className="icons-steps" />
 
           <li>
             <h2 className="subtitle"> Understand client needs</h2>
@@ -20,7 +20,7 @@ const Strategic = () => {
               Based on the client needs our team will find the best way to
               choose and align the KPI's to accomplish the business objective.
             </p>
-            <FontAwesomeIcon icon={faDownLong} />
+            <FontAwesomeIcon icon={faDownLong} className="icons-steps" />
           </li>
 
           <li>
@@ -31,7 +31,7 @@ const Strategic = () => {
               We make the strategy real by designing a Media Plan with the
               perfect Media Mix of channels to accomplish the business goal.
             </p>
-            <FontAwesomeIcon icon={faDownLong} />
+            <FontAwesomeIcon icon={faDownLong} className="icons-steps" />
           </li>
 
           <li>
