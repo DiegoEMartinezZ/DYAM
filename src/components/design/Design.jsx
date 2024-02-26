@@ -4,7 +4,6 @@ import {
   faPenNib,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 
 const Design = () => {
   return (
@@ -22,11 +21,6 @@ const Design = () => {
               communication with customers that relates to the product that is
               being offered and also with the design of where the customer is
               located.
-              <br />
-              <br />
-              Knowing what information can be obtained, where to ask for help
-              and how to get the product, without obstacles that interrupt the
-              path of the interface.
             </p>
           </li>
 
@@ -38,11 +32,6 @@ const Design = () => {
               into account the organization, hierarchies, color theory and
               implementation of design elements that are trendy for each of the
               design pieces that are required.
-              <br />
-              <br />
-              Each piece works both as a unit among all of them and
-              individually, without distorting the information that is being
-              transmitted or hindering the initial purpose of the design.
             </p>
           </li>
         </ul>

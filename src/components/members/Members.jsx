@@ -2,11 +2,11 @@ import { useState } from "react";
 import teamInfo from "../../resources/teamInfo.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faAngleDown,
   faBriefcase,
   faCaretLeft,
   faCaretRight,
   faCircleCheck,
+  faDiamond,
   faLaptop,
   faPeopleGroup,
 } from "@fortawesome/free-solid-svg-icons";
@@ -29,20 +29,9 @@ const Members = () => {
     <div className="member-container">
       <li key={id} className="member-wrap">
         <img src={img} alt="member-dyam" className="members-img" />
+
         <h1 className="member-name"> {name} </h1>
-
-        <div className="member-slider">
-          <button onClick={handleButtonToLeft} className="btn-slider">
-            <FontAwesomeIcon icon={faCaretLeft} />
-          </button>
-          <p className="member-description"> {description} </p>
-          <button onClick={handleButtonToRight} className="btn-slider">
-            <FontAwesomeIcon icon={faCaretRight} />
-          </button>
-        </div>
-
-        <br />
-        <br />
+        <p className="member-description"> {description} </p>
 
         <div className="member-experience">
           <ul className="member-list">
@@ -84,9 +73,17 @@ const Members = () => {
               );
             })}
           </ul>
-        </div>
+          {/*  Slider for member */}
+          <div className="member-slider">
+            <button onClick={handleButtonToLeft} className="btn-slider">
+              <FontAwesomeIcon icon={faCaretLeft} />
+            </button>
 
-        <br />
+            <button onClick={handleButtonToRight} className="btn-slider">
+              <FontAwesomeIcon icon={faCaretRight} />
+            </button>
+          </div>
+        </div>
       </li>
     </div>
   );

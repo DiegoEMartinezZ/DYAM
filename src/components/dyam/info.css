@@ -67,8 +67,7 @@ main.description-container {
 .txt {
   margin: 2% 15%;
   padding-bottom: 8%;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 16px;
 }
 
 .subtitle {
@@ -94,17 +93,11 @@ main.description-container {
   text-align: center;
 }
 
-.member-slider {
-  display: flex;
-  flex-wrap: nowrap;
-  margin: 0 5%;
-}
-
 .member-description {
   margin: 2% 10%;
   padding-bottom: 8%;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 .member-list {
@@ -128,9 +121,20 @@ li.member-roles {
   margin: 2% 20%;
 }
 
+.btn-meet-team {
+  padding: 1rem;
+  margin-bottom: 5%;
+  background-color: #e98700;
+}
+
 .list-check {
   margin: 0 5px;
   color: #e98700;
+}
+
+.btn-slider {
+  margin: 1% 30px;
+  font-size: 16px;
 }
 
 .consulting-service-fee-container {
@@ -170,16 +174,17 @@ li.member-roles {
   .txt {
     margin: 0 30%;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .goal-dyam-txt {
     padding: 0 30%;
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
   }
+
   .icons {
-    font-size: 25px;
+    font-size: 45px;
   }
 
   .member-wrap {
@@ -191,7 +196,9 @@ li.member-roles {
   }
 
   .member-name {
-    margin: 0 32.2%;
+    font-size: 30px;
+    text-align: left;
+    margin: 1% 29.5%;
   }
 
   .member-description {
@@ -203,7 +210,7 @@ li.member-roles {
   .member-subtitle {
     text-align: left;
     margin: 0;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bolder;
   }
 
@@ -213,7 +220,7 @@ li.member-roles {
     align-items: left;
     justify-content: space-around;
     flex-wrap: nowrap;
-    margin: 0 32%;
+    margin: 0 28%;
   }
 
   li.member-clients,
@@ -221,7 +228,13 @@ li.member-roles {
     list-style: none;
     text-align: left;
     margin: 5% 35px;
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  .list-check {
+    font-size: 22px;
+    margin: 0 15px;
+    color: #e98700;
   }
 
   .member-icons {
@@ -230,6 +243,21 @@ li.member-roles {
     margin-right: 15px;
     margin-left: 18px;
   }
+
+  .member-slider {
+    margin-bottom: 50px;
+  }
+
+  .btn-slider {
+    margin: 1% 30px;
+    font-size: 20px;
+  }
+
+  .btn-slider:hover {
+    cursor: pointer;
+    color: #e98700;
+  }
+
   .consulting-service-fee {
     text-align: center;
     font-size: 16px;

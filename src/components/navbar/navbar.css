@@ -18,6 +18,7 @@ ul.navbar-wrap {
 }
 
 .logo-dyam {
+  cursor: pointer;
   width: 250px;
   margin: 0;
 }

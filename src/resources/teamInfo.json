@@ -5,7 +5,7 @@
         "id": 1,
         "img": "/img/am-dyam.png",
         "name": "Andrés Martínez",
-        "description": "Colombian with 5 years of experience in digital marketing, I have been working from a planning perspective and ad ops, ensuring the clients meet their goals. I had worked within the top tier companies: Hylink, Group M, Mediamath, Accenture and Publicis Groupe. I love spending my free time reading (I love romantic books and philosophy), writing, doing exercise at the GYM, playing soccer and playing video games. Also, I love traveling and get to know new places in which we can meet different people.",
+        "description": "Colombian with 5 years of experience in digital marketing, I have been working from a planning perspective and ad ops, ensuring the clients meet their goals.",
         "experience": [
           "Hylink",
           "Group M",
@@ -38,7 +38,7 @@
       {
         "id": 3,
         "name": "Diego Martinez",
-        "description": "Colombian with 4 years of experience in graphic design, I have been working in digital advertising for social media and in the UI/UX design to generate a better communication with the users. I had worked with: MOE (Misión de Observación Electoral) and TRANSMILENIO S.A. I love spending my free time drawing, hanging out with my friends, but most of my time I spend on the computer improving my frontend skills and playing video games. Knowledge in HTML, CSS and Js.",
+        "description": "Colombian with 4 years of experience in graphic design, I have been working in digital advertising for social media and in the UI/UX design to generate a better communication with the users.",
         "experience": [
           "Misión de Observación Electoral - MOE",
           "Digital House",

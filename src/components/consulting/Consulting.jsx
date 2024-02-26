@@ -1,7 +1,6 @@
 import { faCommentDots } from "@fortawesome/free-regular-svg-icons";
 import { faCreditCard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 
 const Consulting = () => {
   return (
@@ -14,7 +13,7 @@ const Consulting = () => {
         <li className="consulting-wrap">
           <FontAwesomeIcon icon={faCommentDots} className="icons-steps" />
           <h2 className="subtitle">Consulting Service Fee</h2>
-          <h2 className="txt">
+          <p className="txt">
             One of our services is the consulting service, in which we make an
             analysis of your current situation in terms of advertising and based
             in the goal you desired we can recommend you the best strategy that
@@ -27,7 +26,7 @@ const Consulting = () => {
               </p>
               <p className="fee">$25 USD per hour</p>
             </div>
-          </h2>
+          </p>
         </li>
       </ul>
     </main>
