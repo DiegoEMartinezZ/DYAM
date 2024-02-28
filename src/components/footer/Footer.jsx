@@ -6,7 +6,9 @@ const Footer = () => {
   return (
     <>
       <footer className="footer-container">
-        <img src="/img/logo-dyam.png" alt="logo-dyam" className="logo-dyam" />
+        <a href="/">
+          <img src="/img/logo-dyam.png" alt="logo-dyam" className="logo-dyam" />
+        </a>
         <section className="footer-info">
           <h3 className="footer-title"> Contact us </h3>
           <ul className="footer-list">

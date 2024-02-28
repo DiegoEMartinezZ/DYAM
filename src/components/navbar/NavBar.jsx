@@ -22,7 +22,7 @@ const NavBar = () => {
       <div className="navbar-container">
         <ul className="navbar-wrap">
           <li>
-            <a href="#about">
+            <a href="/">
               <img
                 src="/img/logo-dyam.png"
                 alt="logoDYAM"
